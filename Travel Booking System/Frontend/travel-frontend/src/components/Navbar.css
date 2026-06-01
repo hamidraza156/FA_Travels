@@ -1,0 +1,75 @@
+/* Navbar container */
+.navbar {
+  background-color: rgb(148, 210, 189);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   
+}
+
+/* Left part: brand + links grouped horizontally */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* space between brand and links */
+}
+
+/* Brand styling */
+.navbar-brand {
+  color: white;;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navbar links container */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  
+}
+
+.navbar-links li{
+  padding: 0;
+  margin: 0;
+}
+
+/* Each link */
+.navbar-links li a {
+  color:white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 0;
+  margin: 0;
+  display: block;
+  background: rgb(148, 210, 189);
+}
+
+.navbar-links li a:hover {
+  background-color: white;
+  color: #94d2bd;
+}
+
+/* Right side container */
+.navbar-right {
+  position: relative;
+}
+
+/* The three dots button */
+.user-menu-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 5px 8px;
+  user-select: none;
+}
+
+/* Remove focus outline but keep accessibility */
+.user-menu-button:focus {
+  outline: 2px solid rgb(148, 210, 189);
+  outline-offset: 2px;
+}

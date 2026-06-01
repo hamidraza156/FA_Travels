@@ -1,0 +1,63 @@
+.suggestions-page {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.suggestions-page h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.suggestions-page input {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.suggestions-page button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1abc9c;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.suggestions-page button:hover {
+  background-color: #16a085;
+}
+
+.suggestions-output {
+  margin-top: 25px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  word-wrap: break-word;
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+.suggestions-output pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 1rem;
+  font-weight: bold;
+}

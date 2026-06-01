@@ -1,0 +1,9 @@
+{
+    "build": {
+      "command": "python manage.py collectstatic --noinput"
+    },
+    "start": {
+      "command": "gunicorn travel_project.wsgi"
+    }
+  }
+  
